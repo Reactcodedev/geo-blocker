@@ -13,7 +13,7 @@ export default function Home() {
   <h1 className="mb-6 text-4xl text-white font-bold">Yummy Pineapple Pizza</h1>
   <Image src={pineapplePizza} width={250} height={250} className='rounded-lg'/>
   <button className='mb-6 mt-6 px-6 py-2 bg-purple-700 text-white shadow-sm'
-    onClick={() => alert('We will deliver in ${Math.random()} seconds')}
+    onClick={() => alert('We will deliver in ${Math.random()} seconds')} 
   >Order Now!</button>
 
   </div>
